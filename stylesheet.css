@@ -1,8 +1,9 @@
 #container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
     gap: 1px;
-    background-color: #2196F3;
+    background-color: #efeff0;
     padding: 1px;
 }
 #container > div {
