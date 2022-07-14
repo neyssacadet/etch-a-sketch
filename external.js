@@ -14,3 +14,8 @@ for (i=0; i<256; i++){
         target.style.background = 'blue';
       };
 }
+
+const button = document.querySelector("#size");
+button.addEventListener("click", function () {
+    let playerOne = window.prompt ("What size grid would you like?");
+});
