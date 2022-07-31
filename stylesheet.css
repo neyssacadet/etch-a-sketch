@@ -1,11 +1,10 @@
 #container {
     display: inline-grid;
-    /*grid-template-columns: repeat(16, 50px);
-    grid-template-rows: repeat(16, 50px);*/
     gap: 1px;
     background-color: #efeff0;
-    padding: 10px;
-    min-width: 0;
+    padding: 1px;
+    width: 550px;
+    height: 550px;
 }
 #container > div {
     background-color: rgba(255, 255, 255, 0.8);
