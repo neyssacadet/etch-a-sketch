@@ -1,6 +1,6 @@
 function makeGrid(row,column){
-    container.style.gridTemplateColumns = (`repeat(${column}, 2fr`);
-    container.style.gridTemplateRows = (`repeat(${row}, 2fr`);
+    container.style.gridTemplateColumns = (`repeat(${column}, minmax(0.5px, 1fr)`);
+    container.style.gridTemplateRows = (`repeat(${row}, minmax(0.5px, 1fr)`);
     for (i=0; i<row*column; i++){
         row = column;
         const divs = document.createElement("div");
