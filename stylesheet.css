@@ -6,6 +6,7 @@
     width: 700px;
     height: 700px;
     justify-content: center;
+    align-content: center;
     margin: auto;
 }
 #container > div {
